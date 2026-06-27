@@ -1,0 +1,36 @@
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 10px;
+}
+
+.skill-group {
+  background: #15151a;
+  border: 0.5px solid #2a2a30;
+  border-radius: 12px;
+  padding: 0.85rem 1rem;
+  transition: border-color 0.15s;
+}
+
+.skill-group:hover {
+  border-color: #3c3489;
+}
+
+.skill-group--wide {
+  grid-column: 1 / -1;
+}
+
+.skill-group-title {
+  font-size: 10px;
+  font-weight: 600;
+  color: #7f77dd;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
