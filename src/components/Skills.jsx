@@ -2,27 +2,11 @@ import React from 'react';
 import './Skills.css';
 
 const skillGroups = [
-  {
-    title: 'Languages',
-    skills: ['Python', 'SQL', 'Java'],
-  },
-  {
-    title: 'Frameworks',
-    skills: ['Pandas', 'NumPy', 'Scikit-Learn', 'Matplotlib'],
-  },
-  {
-    title: 'Tools',
-    skills: ['Power BI', 'Tableau', 'MySQL', 'SQLite', 'Excel', 'PowerPoint'],
-  },
-  {
-    title: 'Platforms',
-    skills: ['Jupyter Notebook', 'VS Code', 'PyCharm', 'IntelliJ IDEA'],
-  },
-  {
-    title: 'Soft Skills',
-    skills: ['Rapport Building', 'Stakeholder Management', 'People Management', 'Communication'],
-    wide: true,
-  },
+  { title: 'Languages', skills: ['JavaScript (ES6+)', 'Python', 'PHP', 'Dart', 'SQL', 'HTML5', 'CSS3'] },
+  { title: 'Frontend', skills: ['React', 'Redux', 'Tailwind CSS', 'Blade'] },
+  { title: 'Mobile', skills: ['Flutter'] },
+  { title: 'Backend', skills: ['PHP Fundamentals', 'RESTful APIs', 'Laravel (intermediate)'] },
+  { title: 'Tools & Version Control', skills: ['Git', 'GitHub', 'Postman', 'Composer', 'NPM'], wide: true },
 ];
 
 function Skills() {
